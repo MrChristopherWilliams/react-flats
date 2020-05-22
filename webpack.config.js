@@ -11,6 +11,10 @@ module.exports = {
       template: '!!html-loader!templates/index.html'
     })
   ],
+  devServer: {
+    compress: true,
+    disableHostCheck: true,
+  },
   devtool: 'sourcemap',
   mode: "development",
   module: {
